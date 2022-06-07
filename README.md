@@ -1,5 +1,5 @@
 
-This is our proposed network named LMFFNet. Our paper has been delivered to IEEE Transactions on Neural Networks and Learning Systems(TNNLS). After the paper is received, we will publish the source code.  
+The source code is to be ready.
   
 This work belongs to College of Information Science and Technology,Jinan University  
 Addr: 601 Huangpu Western Avenue, Tianhe District, Guangzhou, P. R. of China  
