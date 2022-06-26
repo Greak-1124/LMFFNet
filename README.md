@@ -10,8 +10,12 @@
  
  To be continue...
  
+ ## Citation
  
-This work belongs to College of Information Science and Technology,Jinan University  
-Addr: 601 Huangpu Western Avenue, Tianhe District, Guangzhou, P. R. of China  
+ ## Reference
+ 
+ https://github.com/xiaoyufenfei/Efficient-Segmentation-Networks
+ 
+ https://github.com/Reagan1311/DABNet
+ 
 
-If you have any questions, please contact the email 1352085774@qq.com.  
