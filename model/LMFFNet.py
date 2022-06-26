@@ -1,7 +1,7 @@
 ###################################################################################################################
 #  LMFFNet: A Well-Balanced Lightweight Network for Fast and Accurate Semantic Segmentation
 #  Authors: M Shi, J Shen, Q Yi, J Weng, Z Huang, A Luo, Y Zhou
-#  Published in£ºIEEE Transactions on Neural Networks and Learning Systems
+#  Published inÂ£ÂºIEEE Transactions on Neural Networks and Learning Systems
 #  Date: 2022/06/14
 #
 ##################################################################################################################
@@ -95,7 +95,7 @@ class SEM_B(nn.Module):
 
         self.bn_relu_1 = BNPReLU(nIn)
 
-        self.conv3x3_deduction = conv3x3_resume(nIn , nIn , (dkSize, dkSize), 1,
+        self.conv3x3_resume = conv3x3_resume(nIn , nIn , (dkSize, dkSize), 1,
                                 padding=(1 , 1 ),  bn_acti=True)
 
     def forward(self, input):
@@ -109,7 +109,7 @@ class SEM_B(nn.Module):
         right = self.dconv_right(x2)
 
         output = torch.cat((letf, right), 1)
-        output = self.conv3x3_deduction(output)
+        output = self.conv3x3_resume(output)
 
         return self.bn_relu_1(output + input)
 
