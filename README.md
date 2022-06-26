@@ -1,5 +1,12 @@
 
-The source code is to be ready.
+# How to run
+
+## 1. Training
+
+## 2. Testing
+
+## 3. Predict
+
   
 This work belongs to College of Information Science and Technology,Jinan University  
 Addr: 601 Huangpu Western Avenue, Tianhe District, Guangzhou, P. R. of China  
