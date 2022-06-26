@@ -5,7 +5,7 @@
 
 ## 2. Testing
 
-## 3. Predict
+## 3. Predicting
 
   
 This work belongs to College of Information Science and Technology,Jinan University  
