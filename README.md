@@ -16,11 +16,9 @@
 
 convert the training lable to class lable.
 > 2. python trainID2labelID.py
-
 > 3. Package the file into xxx.zip 
-
 > 4. Submit the zip file to https://www.cityscapes-dataset.com/
-
+> 5. You can get the results from the [websi](https://www.cityscapes-dataset.com/).
 ### 2.2 CamVid
 > python test.py --dataset camvid --checkpoint ${CHECKPOINT_FILE}
 
