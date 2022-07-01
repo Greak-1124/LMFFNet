@@ -1,13 +1,25 @@
 
 
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-baqh{text-align:center;vertical-align:top}
+.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
+.tg .tg-amwm{font-weight:bold;text-align:center;vertical-align:top}
+</style>
 <table class="tg">
 <thead>
   <tr>
-    <th class="tg-yagv">Crop Size<br></th>
-    <th class="tg-yagv">Dataset</th>
-    <th class="tg-yagv">Pretrained</th>
-    <th class="tg-yagv">Train type</th>
-    <th class="tg-yagv">mIoU</th>
+    <th class="tg-amwm">Crop Size*</th>
+    <th class="tg-amwm">Dataset</th>
+    <th class="tg-amwm">Pretrained</th>
+    <th class="tg-amwm">Train type</th>
+    <th class="tg-amwm">mIoU</th>
+    <th class="tg-amwm">Params</th>
+    <th class="tg-amwm">Speed</th>
   </tr>
 </thead>
 <tbody>
@@ -17,27 +29,35 @@
     <td class="tg-baqh">No</td>
     <td class="tg-baqh">trainval</td>
     <td class="tg-baqh">75.1</td>
+    <td class="tg-baqh">1.35</td>
+    <td class="tg-baqh">118.9</td>
   </tr>
   <tr>
-    <td class="tg-baqh">1024,1024</td>
-    <td class="tg-baqh">Cityscapes</td>
-    <td class="tg-baqh">No</td>
-    <td class="tg-baqh">trainval</td>
-    <td class="tg-baqh">76.1</td>
+    <td class="tg-c3ow">1024,1024</td>
+    <td class="tg-c3ow">Cityscapes</td>
+    <td class="tg-c3ow">No</td>
+    <td class="tg-c3ow">trainval</td>
+    <td class="tg-c3ow">76.1</td>
+    <td class="tg-baqh">1.35</td>
+    <td class="tg-baqh">-</td>
   </tr>
   <tr>
-    <td class="tg-baqh">360,480</td>
-    <td class="tg-baqh">CamVid</td>
-    <td class="tg-baqh">No</td>
-    <td class="tg-baqh">trainval</td>
-    <td class="tg-baqh">69.1</td>
+    <td class="tg-c3ow">360,480</td>
+    <td class="tg-c3ow">CamVid</td>
+    <td class="tg-c3ow">No</td>
+    <td class="tg-c3ow">trainval</td>
+    <td class="tg-c3ow">69.1</td>
+    <td class="tg-baqh">1.35</td>
+    <td class="tg-baqh">116.4</td>
   </tr>
   <tr>
-    <td class="tg-baqh">720,960</td>
-    <td class="tg-baqh">CamVid</td>
-    <td class="tg-baqh">No</td>
-    <td class="tg-baqh">trainval</td>
-    <td class="tg-baqh">72.0</td>
+    <td class="tg-c3ow">720,960</td>
+    <td class="tg-c3ow">CamVid</td>
+    <td class="tg-c3ow">No</td>
+    <td class="tg-c3ow">trainval</td>
+    <td class="tg-c3ow">72.0</td>
+    <td class="tg-baqh">1.35</td>
+    <td class="tg-baqh">120.8</td>
   </tr>
 </tbody>
 </table>
