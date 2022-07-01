@@ -1,4 +1,6 @@
 
+
+
 # How to run
 
 ## 1. Training
@@ -12,7 +14,7 @@
 ### 2.1 Cityscapes  
 > 1. python predict.py --dataset ${camvid, cityscapes} --checkpoint ${CHECKPOINT_FILE}
 
-# convert the training lable to class lable.
+convert the training lable to class lable.
 > 2. python trainID2labelID.py
 
 > 3. Package the file into xxx.zip 
