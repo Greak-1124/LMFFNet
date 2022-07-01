@@ -51,7 +51,7 @@
 </tbody>
 </table>
 
-* Represents the resolution of the input image cropping in the training phase.
+\* Represents the resolution of the input image cropping in the training phase.
 
 # How to run
 
