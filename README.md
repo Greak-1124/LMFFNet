@@ -1,4 +1,5 @@
 
+# Segmentation performance of LMFFNet
 <table class="tg">
 <thead>
   <tr>
@@ -51,22 +52,23 @@
 </tbody>
 </table>
 
-\* Represents the resolution of the input image cropping in the training phase.
+\* Represents the resolution of the input image cropping in the training phase. We found that when the randomly cropped image is 1024x1024 in the training phase, the network can perform better. If the input image of LMFFNet is randomly cropped to 1024x1024 resolution, 76.1% mIoU can be achieved on cityscapes.
+
 
 # How to run
 
-## 1. Training
+## 1 Training
 ### 1.1 Cityscapes
 > python train.py 
 
 ### 1.2 CamVid
 > python python train.py --dataset camvid --train_type trainval --max_epochs 1000 --lr 1e-3 --batch_size 8
 
-## 2. Testing
+## 2 Testing
 ### 2.1 Cityscapes  
 > python predict.py --dataset ${camvid, cityscapes} --checkpoint ${CHECKPOINT_FILE}
 
-convert the training lable to class lable.
+To convert the training lables to class lables.
 > python trainID2labelID.py
 > Package the file into xxx.zip 
 > Submit the zip file to https://www.cityscapes-dataset.com/submit/.
