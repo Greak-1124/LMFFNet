@@ -56,8 +56,26 @@
 
 
 # Preparation
-You need to download the A and B datasets and place the symbolic links or datasets of the A and B datasets in the dataset directory.
-
+You need to download the Cityscapes and CamVid datasets and place the symbolic links or datasets of the Cityscapes and CamVid datasets in the dataset directory. Our file directory is consistent with DABNet (https://github.com/Reagan1311/DABNet).
+├── camvid
+|    ├── train
+|    ├── test
+|    ├── val 
+|    ├── trainannot
+|    ├── testannot
+|    ├── valannot
+|    ├── camvid_trainval_list.txt
+|    ├── camvid_train_list.txt
+|    ├── camvid_test_list.txt
+|    └── camvid_val_list.txt
+├── cityscapes
+|    ├── gtCoarse
+|    ├── gtFine
+|    ├── leftImg8bit
+|    ├── cityscapes_trainval_list.txt
+|    ├── cityscapes_train_list.txt
+|    ├── cityscapes_test_list.txt
+|    └── cityscapes_val_list.txt           
 # How to run
 
 ## 1 Training
