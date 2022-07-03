@@ -55,6 +55,9 @@
 \* Represents the resolution of the input image cropping in the training phase. We found that when the randomly cropped image is 1024x1024 in the training phase, the network can perform better. If the input image of LMFFNet is randomly cropped to 1024x1024 resolution, 76.1% mIoU can be achieved on cityscapes.
 
 
+# Preparation
+You need to download the A and B datasets and place the symbolic links or datasets of the A and B datasets in the dataset directory.
+
 # How to run
 
 ## 1 Training
