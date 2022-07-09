@@ -83,8 +83,9 @@ dataset
 
 ## 1 Training
 ### 1.1 Cityscapes
-> python train.py 
-
+'''
+python train.py 
+'''
 ### 1.2 CamVid
 > python python train.py --dataset camvid --train_type trainval --max_epochs 1000 --lr 1e-3 --batch_size 8
 
