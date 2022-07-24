@@ -107,7 +107,14 @@ To convert the training lables to class lables.
  To be continue...
  
  ## Citation
- 
+@article{shi2022lmffnet,
+  title={LMFFNet: A Well-Balanced Lightweight Network for Fast and Accurate Semantic Segmentation},
+  author={Shi, Min and Shen, Jialin and Yi, Qingming and Weng, Jian and Huang, Zunkai and Luo, Aiwen and Zhou, Yicong},
+  journal={IEEE Transactions on Neural Networks and Learning Systems},
+  year={2022},
+  publisher={IEEE}
+}
+
  ## Reference
  
  https://github.com/xiaoyufenfei/Efficient-Segmentation-Networks
